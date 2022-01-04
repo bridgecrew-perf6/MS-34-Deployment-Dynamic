@@ -7,7 +7,7 @@ const mainRoutes = require('./routes/main.routes');
 
 let port = 3000;
 
-if (propcess.env.PORT) {
+if (process.env.PORT) {
   port = process.env.PORT;
 }
 
